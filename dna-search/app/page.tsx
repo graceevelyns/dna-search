@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Head from 'next/head';
 import dynamic from 'next/dynamic';
 
 const StringMatchingVisualization = dynamic(
@@ -112,12 +111,6 @@ export default function Home() {
 
   return (
     <div className="container">
-      <Head>
-        <title>Privacy-Preserving DNA Search with SMPC</title>
-        <meta name="description" content="Demonstration of Boyer-Moore algorithm using SMPC with real-time visualization" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main>
         <h1 className="title">
           🧬 Privacy-Preserving DNA Sequence Matching
