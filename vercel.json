@@ -1,5 +1,0 @@
-{
-  "buildCommand": "cd dna-search && npm run build",
-  "outputDirectory": "dna-search/.next",
-  "installCommand": "cd dna-search && npm install"
-}
